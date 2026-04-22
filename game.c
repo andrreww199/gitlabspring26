@@ -19,6 +19,16 @@
 
 void function13AG(void);
 
+
+void jbInit(void);
+
+void ip21(void);
+
+void folksamEV(void);
+
+void ip21(void);
+
+
 void rtFun(void);
 
 void JLeyva(void);
@@ -30,6 +40,8 @@ void printStudent30(void);
 void printInitialsAjewett(void);
 
 void jgFun(void);
+
+
 
 
 
@@ -91,6 +103,7 @@ int main(int argc, char *argv[])
 			}
 			case 8:
 			{
+				folksamEV();
 				puts("room8");
 				break;
 			}
@@ -139,6 +152,7 @@ int main(int argc, char *argv[])
 			}
 			case 17:
 			{
+				jbInit();
 				puts("room17");
 				break;
 			}
@@ -159,6 +173,7 @@ int main(int argc, char *argv[])
 			}
 			case 21:
 			{
+				ip21();
 				puts("room21");
 				break;
 			}
@@ -447,9 +462,25 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
 void function13AG(void)
 {
 	printf("AG\n");
+}
+
+void folksamEV(void) 
+{
+	printf("EV\n");
+}
+
+void jbInit()
+{
+	puts("jbRoom17");
+}
+
+void ip21(void)
+{
+	printf("IP\n");
 }
 
 void rtFun(void)
